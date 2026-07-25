@@ -1,5 +1,7 @@
 # NetDeTox
 
+**Adversarial and Efficient Evasion of Hardware-Security GNNs via RL-LLM Orchestration**
+
 > **Accepted to DAC 2026.** Preprint: [arXiv:2512.00119](https://arxiv.org/abs/2512.00119) ([PDF](https://arxiv.org/pdf/2512.00119)).
 
 Initial open release (OMLA attack).
@@ -177,13 +179,13 @@ Figures from the paper are in [`figures/`](figures/):
 ## Citing
 
 If you use this code or the example designs, please cite the NetDeTox paper
-(DAC 2026). Preprint: [arXiv:2512.00119](https://arxiv.org/abs/2512.00119).
+(accepted to DAC 2026). Preprint: [arXiv:2512.00119](https://arxiv.org/abs/2512.00119).
 
 ```bibtex
-@inproceedings{netdetox_dac2026,
-  title     = {NetDeTox},
-  booktitle = {Proceedings of the 63rd ACM/IEEE Design Automation Conference (DAC)},
-  year      = {2026},
-  note      = {arXiv:2512.00119}
+@article{wang2025netdetox,
+  title={NetDeTox: Adversarial and Efficient Evasion of Hardware-Security GNNs via RL-LLM Orchestration},
+  author={Wang, Zeng and Shao, Minghao and Saha, Akashdeep and Karri, Ramesh and Knechtel, Johann and Shafique, Muhammad and Sinanoglu, Ozgur},
+  journal={arXiv preprint arXiv:2512.00119},
+  year={2025}
 }
 ```
