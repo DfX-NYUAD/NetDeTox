@@ -4,8 +4,6 @@
 
 > **Accepted to DAC 2026.** Preprint: [arXiv:2512.00119](https://arxiv.org/abs/2512.00119) ([PDF](https://arxiv.org/pdf/2512.00119)).
 
-Initial open release (OMLA attack).
-
 <p align="center">
   <img src="figures/framework.png" alt="NetDeTox framework overview" width="100%">
 </p>
@@ -18,12 +16,11 @@ optimization budget, and an ABC / Circuit-Transformer **sub-circuit optimizer**
 performs equivalence-preserving local resynthesis. After every edit the netlist
 is re-attacked; the design that most weakens the attacker is kept.
 
-This is the **initial open release** for our DAC submission. It is primarily a
-**code release of the NetDeTox framework**, shipped with the **OMLA** attacker
-(oracle-less ML attack on logic locking) wired in and runnable out of the box.
-The framework is attack-agnostic: other attackers (GNN4IP, GNN-RE, TrojanSAINT,
-…) plug in behind the same `--eval_backend` interface, so users who need them can
-add their own. A small set of **example de-toxified designs (GPT-5 backend)** is
+This repository releases the **NetDeTox framework**, shipped with the **OMLA**
+attacker (oracle-less ML attack on logic locking) wired in and runnable out of
+the box. The framework is attack-agnostic: other attackers (GNN4IP, GNN-RE,
+TrojanSAINT, …) plug in behind the same `--eval_backend` interface, so users who
+need them can add their own. A set of **de-toxified designs (GPT-5 backend)** is
 included to demonstrate the effect.
 
 > Internally the framework was prototyped as *DraGON*; some source files still
