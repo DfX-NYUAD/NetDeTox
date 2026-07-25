@@ -6,6 +6,10 @@
 
 Initial open release (OMLA attack).
 
+<p align="center">
+  <img src="figures/framework.png" alt="NetDeTox framework overview" width="100%">
+</p>
+
 **NetDeTox** rewrites a synthesized, logic-locked gate-level netlist so that a
 GNN-based hardware-security attack can no longer succeed — while keeping the
 circuit logically equivalent and adding little area. An LLM proposes which gate
