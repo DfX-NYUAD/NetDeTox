@@ -1,0 +1,14 @@
+{
+  "mode": "text_replace",
+  "removed_instances": [
+    "U1202",
+    "U_OPT2853",
+    "U_OPT3027",
+    "U_OPT3038",
+    "U_OPT3039"
+  ],
+  "insert_pos_line": 216,
+  "top": "locked_c3540",
+  "inserted_from": "tmp_c3540_fresh_updated_gpt5/iter_21/subcone_opt_21.v",
+  "renamed_prefix": "U_OPT"
+}

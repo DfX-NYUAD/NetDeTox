@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Run outputs / scratch work dirs
+tmp/
+tmp_*/
+run_log.jsonl
+*.out
+
+# Secrets — never commit API keys
+.env
+*.key
+
+# OS
+.DS_Store

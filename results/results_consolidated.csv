@@ -1,0 +1,5 @@
+task,model,circuit,baseline_security,best_security,best_iter,baseline_area,area_at_best,area_overhead_pct,n_iters,src
+omla,gpt5,c1355_fresh_updated_gpt45,0.696429,0.48913,3,361.228,543.172,50.37,4,log_OMLA_gpt5/gpt5_all_info.csv
+omla,gpt5,c1908_fresh_updated_gpt45,0.552632,0.462963,3,423.472,572.432,35.18,4,log_OMLA_gpt5/gpt5_all_info.csv
+omla,gpt5,c2670_fresh_updated_gpt5,0.71875,0.492537,9,501.676,545.566,8.75,10,log_OMLA_gpt5/gpt5_all_info.csv
+omla,gpt5,c3540_fresh_updated_gpt5,0.761194,0.492537,20,886.844,1121.722,26.48,21,log_OMLA_gpt5/gpt5_all_info.csv

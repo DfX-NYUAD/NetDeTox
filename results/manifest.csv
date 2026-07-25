@@ -1,0 +1,5 @@
+circuit,backend,design,source_netlist,omla_baseline_key_acc,omla_best_key_acc,area_overhead_pct
+c1355,GPT-5,designs/GPT-5/tmp_c1355_fresh_updated_gpt5.final.v,benchmarks/locked_c1355.v,0.696429,0.48913,50.37
+c1908,GPT-5,designs/GPT-5/tmp_c1908_fresh_updated_gpt5.final.v,benchmarks/locked_c1908.v,0.552632,0.462963,35.18
+c2670,GPT-5,designs/GPT-5/tmp_c2670_fresh_updated_gpt5.final.v,benchmarks/locked_c2670.v,0.71875,0.492537,8.75
+c3540,GPT-5,designs/GPT-5/tmp_c3540_fresh_updated_gpt5.final.v,benchmarks/locked_c3540.v,0.761194,0.492537,26.48

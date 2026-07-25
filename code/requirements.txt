@@ -1,0 +1,24 @@
+# NetdeTox (OMLA release) dependencies — Python >= 3.9
+
+# --- framework ---
+networkx>=2.6
+numpy>=1.21
+requests>=2.25
+pyverilog>=1.3.0        # Verilog netlist parsing / codegen in the optimizer
+
+# --- OMLA attacker (attacker/OMLA) ---
+torch>=1.12
+torch-geometric>=2.1
+scikit-learn>=1.0
+pandas>=1.3
+
+# --- neural resynthesis (optional; ABC path works without it) ---
+# circuit-transformer         # pip install circuit-transformer
+
+# --- analysis (optional) ---
+matplotlib>=3.4
+
+# --- external tools required on PATH (NOT pip-installable) ---
+#   abc      (berkeley-abc)        equivalence-preserving resynthesis + cec
+#   yosys                          netlist front-end
+#   iverilog (Icarus Verilog)      simulation / sanity checks
